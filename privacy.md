@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy / 隐私政策
 
-Effective date: 10 November 2026. Operator: Chenyang Xiong (熊晨阳), an individual developer based in mainland China. Privacy and abuse contact: [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
+Effective date: 12 November 2026. Operator: Chenyang Xiong (熊晨阳), an individual developer based in mainland China. Privacy and abuse contact: [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
 
 ## Who may use the service
 
@@ -14,7 +14,7 @@ The service is intended for people aged 16 or older. We ask for a date of birth 
 
 - Google sign-in identifier, account email, nickname and avatar: authentication, account display and support.
 - Location events and derived hexagonal grid footprints: to build your map, sync it across devices, and provide features you enable. If you enable background recording and grant iOS "Always" location permission, collection may continue when the app is not on screen or is relaunched by iOS. You can pause recording in the app and change iOS permission at any time.
-- Photo library location and time metadata: only after you enable photo discovery, to find photos associated with your grid cells. Photo content is uploaded only after you select it. Uploaded thumbnails and originals, avatars, and related metadata support the photo and map features.
+- Photo library location and time metadata: only after you enable photo discovery, to find photos associated with your grid cells. Photo content is uploaded only after you select it. Uploaded thumbnails and originals, avatars, and related metadata support the photo and map features. When you update your avatar, we submit the selected image to Microsoft Azure AI Content Safety before changing the visible avatar. If the review is unavailable or any of its four category scores is above zero, the previous avatar remains.
 - Friendships, access requests, one-to-one messages, message read state, and visit activity: to provide social features and prevent repeat notifications.
 - Reports and blocked users: to handle abuse, protect users, and enforce community rules. When a recipient reports a private message, we copy only that reported message and submit it to Microsoft Azure AI Content Safety. Azure's scores determine whether the reported message is removed or the report is dismissed. The sender or reporter may appeal for human review. We do not routinely scan unreported private conversations. If Azure is unavailable, the report remains pending for retry or exceptional manual handling.
 - Technical diagnostics and device data needed to operate the app, prevent abuse and investigate failures. Some diagnostics remain on your device.
@@ -27,7 +27,7 @@ Sharing footprints and uploaded photos with other users is off by default. If yo
 
 ## Providers and international transfers
 
-Supabase hosts account, social and photo data in its Tokyo region. Microsoft Azure AI Content Safety processes uploaded photos and the specific private message reported by its recipient; the configured Azure resource is in Japan East. Google provides sign-in and Mapbox provides map tiles and related map services; these providers may process requests and technical data in other jurisdictions under their own terms. We do not sell personal data or use it for targeted advertising. We will review transfer mechanisms required for each launch country before offering the service there.
+Supabase hosts account, social and photo data in its Tokyo region. Microsoft Azure AI Content Safety processes uploaded photos, selected avatar updates, and the specific private message reported by its recipient; the configured Azure resource is in Japan East. Google provides sign-in and Mapbox provides map tiles and related map services; these providers may process requests and technical data in other jurisdictions under their own terms. We do not sell personal data or use it for targeted advertising. We will review transfer mechanisms required for each launch country before offering the service there.
 
 ## Storage, security and retention
 
@@ -43,4 +43,4 @@ We will post material changes here and update the effective date. Contact [nesgo
 
 ---
 
-生效日期：2026 年 11 月 10 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、好友与聊天记录、举报及屏蔽记录。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Microsoft Azure AI Content Safety 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。你可在应用设置中暂停记录、关闭分享、导出数据、永久删除账号，或通过上述邮箱行使法定权利。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
+生效日期：2026 年 11 月 12 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。你主动更新头像时，我们会先将所选头像提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，原头像保持不变。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。你可在应用设置中暂停记录、关闭分享、导出数据、永久删除账号，或通过上述邮箱行使法定权利。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
