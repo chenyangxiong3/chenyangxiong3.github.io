@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy / 隐私政策
 
-Effective date: 13 November 2026. Operator: Chenyang Xiong (熊晨阳), an individual developer based in mainland China. Privacy and abuse contact: [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
+Effective date: 14 November 2026. Operator: Chenyang Xiong (熊晨阳), an individual developer based in mainland China. Privacy and abuse contact: [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
 
 ## Who may use the service
 
@@ -35,7 +35,7 @@ Uploaded photos are held in private storage and delivered through short-lived li
 
 ## Your choices and rights
 
-In the app, you can pause location recording, disable photo discovery and sharing, block users, export an archive containing your account records and downloaded photo originals, or permanently delete the account. The export lists originals that could not be included; request a new export or contact us if this happens. You may also email us to request access, correction, deletion, portability, restriction, or to object, subject to applicable law. We will respond within the legally required period.
+In the app, you can pause location recording, disable photo discovery and sharing, block users, export your account records as a JSON file, or permanently delete the account. The JSON may include photo metadata but does not include image files or signed links for downloading them. You may email us to request access to your uploaded photos or to request access, correction, deletion, portability, restriction, or to object, subject to applicable law. We will respond within the legally required period.
 
 ## Changes and contact
 
@@ -43,4 +43,4 @@ We will post material changes here and update the effective date. Contact [nesgo
 
 ---
 
-生效日期：2026 年 11 月 13 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。你主动更新头像或提交公开昵称时，我们会先将所选头像或昵称提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，新头像或昵称不会发布。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。你可在应用设置中暂停记录、关闭分享、导出数据、永久删除账号，或通过上述邮箱行使法定权利。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
+生效日期：2026 年 11 月 14 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。你主动更新头像或提交公开昵称时，我们会先将所选头像或昵称提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，新头像或昵称不会发布。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。你可在应用设置中暂停记录、关闭分享、导出账号记录 JSON（含照片元数据但不含原图文件或原图下载签名链接）、永久删除账号；如需获取已上传照片或行使其他法定权利，可通过上述邮箱提出请求。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
