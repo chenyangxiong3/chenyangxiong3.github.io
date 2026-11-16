@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy / 隐私政策
 
-Effective date: 14 November 2026. Operator: Chenyang Xiong (熊晨阳), an individual developer based in mainland China. Privacy and abuse contact: [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
+Effective date: 16 November 2026. Operator: Chenyang Xiong (熊晨阳), an individual developer based in mainland China. Privacy and abuse contact: [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
 
 ## Who may use the service
 
@@ -29,6 +29,8 @@ Sharing footprints and uploaded photos with other users is off by default. If yo
 
 Supabase hosts account, social and photo data in its Tokyo region. Microsoft Azure AI Content Safety processes uploaded photos, selected avatar updates, proposed nicknames, and the specific private message reported by its recipient; the configured Azure resource is in Japan East. Google provides sign-in and Mapbox provides map tiles and related map services; these providers may process requests and technical data in other jurisdictions under their own terms. We do not sell personal data or use it for targeted advertising. We will review transfer mechanisms required for each launch country before offering the service there.
 
+The Google Sign-In SDK's privacy declaration includes name, email address, phone number, approximate location, user and device identifiers, usage data, and other technical data for sign-in functionality and, for some types, analytics. Google's sign-in documentation also says an IP address may be used to estimate a general location for fraud prevention. The Mapbox Maps SDK's declaration includes location, a user identifier, product interactions, usage, performance, and diagnostic data for map functionality and analytics. These are SDK declarations; the data generated in a session depends on the features and providers used. The App Store privacy disclosure includes these categories conservatively. Mapbox's map attribution control provides its telemetry choice. We do not use these SDKs for advertising or cross-app tracking.
+
 ## Storage, security and retention
 
 Uploaded photos are held in private storage and delivered through short-lived links after access checks. On 10 November 2026, older published photos were copied into private storage, their app records were switched to private links, and the old bucket was made private; the old anonymous photo links no longer work. The old photo recovery copies have been removed; the private old bucket still holds three legacy avatars. You can delete your account and its photos at any time. We use access rules and limited permissions, but no internet service can promise absolute security. Account, footprint, photo and chat data are retained while your account is active. Account deletion removes the account, uploaded media and associated records, except information we must retain under applicable law. Temporary backups and provider logs may remain for a limited period under provider schedules. Extra copies of reported or removed private messages are kept while a report or appeal is open, then removed after 180 days once the case is closed and no appeal is pending. The original chat record and decision history follow separate retention rules. Reports are reviewed for abuse; contact us if you need details about a particular retention obligation.
@@ -43,4 +45,4 @@ We will post material changes here and update the effective date. Contact [nesgo
 
 ---
 
-生效日期：2026 年 11 月 14 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。聊天记录、会话与好友列表可能按账号缓存在本机，退出登录时清除该账号的本机缓存。你主动更新头像或提交公开昵称时，我们会先将所选头像或昵称提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，新头像或昵称不会发布。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。你可在应用设置中暂停记录、关闭分享、导出账号记录 JSON（含照片元数据但不含原图文件或原图下载签名链接）、单独保存自己上传的照片，或永久删除账号；如需行使其他法定权利，可通过上述邮箱提出请求。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
+生效日期：2026 年 11 月 16 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。聊天记录、会话与好友列表可能按账号缓存在本机，退出登录时清除该账号的本机缓存。你主动更新头像或提交公开昵称时，我们会先将所选头像或昵称提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，新头像或昵称不会发布。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。Google 登录和 Mapbox 地图 SDK 的隐私清单还声明了登录身份、粗略定位、设备标识、使用及诊断等数据类别；部分用于分析。具体类别见上方英文全文与 App Store 隐私披露。你可在应用设置中暂停记录、关闭分享、导出账号记录 JSON（含照片元数据但不含原图文件或原图下载签名链接）、单独保存自己上传的照片，或永久删除账号；如需行使其他法定权利，可通过上述邮箱提出请求。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
