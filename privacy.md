@@ -8,7 +8,7 @@ Effective date: 16 November 2026. Operator: Chenyang Xiong (熊晨阳), an indiv
 
 ## Who may use the service
 
-The service is intended for people aged 16 or older. We ask for a date of birth at sign-up and store it only to determine eligibility. We do not show it to other users. If you are under 16, do not create or use an account. If you believe an under-16 account exists, contact us for removal.
+The service is intended for people aged 16 or older. After your first sign-in, we ask you to provide your date of birth and store it in your account on Supabase to determine eligibility. At later sign-ins and app launches, we check the account's stored eligibility without asking you to enter the date again. Existing accounts without a date of birth must provide one. This date is self-declared and not independently verified. We do not show it to other users. It is included in your account export and deleted with your account, subject to applicable retention duties. If you are under 16, do not create or use an account. If you believe an under-16 account exists, contact us for removal.
 
 ## Data we process and why
 
@@ -45,4 +45,4 @@ We will post material changes here and update the effective date. Contact [nesgo
 
 ---
 
-生效日期：2026 年 11 月 16 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。聊天记录、会话与好友列表可能按账号缓存在本机，退出登录时清除该账号的本机缓存。你主动更新头像或提交公开昵称时，我们会先将所选头像或昵称提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，新头像或昵称不会发布。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。Google 登录和 Mapbox 地图 SDK 的隐私清单还声明了登录身份、粗略定位、设备标识、使用及诊断等数据类别；部分用于分析。具体类别见上方英文全文与 App Store 隐私披露。你可在应用设置中暂停记录、关闭分享、导出账号记录 JSON（含照片元数据但不含原图文件或原图下载签名链接）、单独保存自己上传的照片，或永久删除账号；如需行使其他法定权利，可通过上述邮箱提出请求。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
+生效日期：2026 年 11 月 16 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务仅供年满 16 岁的用户使用。首次登录后，用户自行填写出生日期，服务端在 Supabase 保存该日期并判断是否符合最低年龄要求；后续登录和重新启动时读取云端资格，无须再次填写。已有账号若无出生日期，也需补填一次。该日期未经过独立核验，不向其他用户显示，可通过账号数据导出取得，并随账号删除（依法应保留的信息除外）。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。聊天记录、会话与好友列表可能按账号缓存在本机，退出登录时清除该账号的本机缓存。你主动更新头像或提交公开昵称时，我们会先将所选头像或昵称提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，新头像或昵称不会发布。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。Google 登录和 Mapbox 地图 SDK 的隐私清单还声明了登录身份、粗略定位、设备标识、使用及诊断等数据类别；部分用于分析。具体类别见上方英文全文与 App Store 隐私披露。你可在应用设置中暂停记录、关闭分享、导出账号记录 JSON（含照片元数据但不含原图文件或原图下载签名链接）、单独保存自己上传的照片，或永久删除账号；如需行使其他法定权利，可通过上述邮箱提出请求。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。
