@@ -2,7 +2,7 @@
 title: Support
 ---
 
-# Support / 足迹地图支持
+# Support / Yonprint 支持
 
 For account access, bug reports, privacy requests or abusive content, contact [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com). Include your device and app version and a description of the issue. Do not email passwords, identity tokens, exact location history, or other people's private messages. We will reply as appropriate and handle privacy requests within the legally required period. If someone is in immediate physical danger, contact local emergency services first.
 
