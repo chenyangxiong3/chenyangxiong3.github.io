@@ -2,9 +2,13 @@
 title: Privacy Policy
 ---
 
-# Privacy Policy / 隐私政策
+# Privacy Policy / 隱私權政策
 
-Effective date: 20 November 2026. Operator: Chenyang Xiong (熊晨阳), an individual developer based in mainland China. Privacy and abuse contact: [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
+**Languages / 語言**：English (below) · [繁體中文（台灣／香港）](#繁體中文完整隱私權政策台灣香港適用) · [日本語（プライバシー通知）](privacy-ja.html) · [48-Hour Intimate Imagery Removal / 私密影像 48 小時刪圖入口](takedown.html)
+
+Effective date: 21 November 2026.  
+**Operator & Data Controller**: Chenyang Xiong (熊晨陽), an individual developer based in mainland China.  
+**Data Protection Officer (DPO) & Privacy / Abuse Contact**: Chenyang Xiong — [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com).
 
 ## Who may use the service
 
@@ -12,37 +16,101 @@ The service generally requires a minimum age of 16. When Apple’s regional and 
 
 ## Data we process and why
 
-- Apple or Google sign-in identifier, account email, nickname and avatar: authentication, account display and support. Before a nickname becomes visible, we submit it to Microsoft Azure AI Content Safety for text screening. Rejected nicknames are not published; you may choose another.
-- Location events and derived hexagonal grid footprints: to build your map, sync it across devices, and provide features you enable. If you enable background recording and grant iOS "Always" location permission, collection may continue when the app is not on screen or is relaunched by iOS. You can pause recording in the app and change iOS permission at any time.
-- Photo library location and time metadata: only after you enable photo discovery, to find photos associated with your grid cells. Photo content is uploaded only after you select it. Uploaded thumbnails and originals, avatars, and related metadata support the photo and map features. When you update your avatar, we submit the selected image to Microsoft Azure AI Content Safety before changing the visible avatar. If the review is unavailable or any of its four category scores is above zero, the previous avatar remains.
-- Friendships, access requests, one-to-one messages, message read state, and visit activity: to provide social features and prevent repeat notifications. Recent chats, conversations, and friend lists may be cached in protected files on your device for faster display; signing out clears that account's local cache.
-- Reports and blocked users: to handle abuse, protect users, and enforce community rules. When a recipient reports a private message, we copy only that reported message and submit it to Microsoft Azure AI Content Safety. Azure's scores determine whether the reported message is removed or the report is dismissed. The sender or reporter may appeal for human review. We do not routinely scan unreported private conversations. If Azure is unavailable, the report remains pending for retry or exceptional manual handling.
-- Technical diagnostics and device data needed to operate the app, prevent abuse and investigate failures. Some diagnostics remain on your device.
+- **Account & authentication**: Apple or Google sign-in identifier, account email, nickname and avatar — used for authentication, account display and support. Before a nickname becomes visible, we submit it to Microsoft Azure AI Content Safety for text screening. Rejected nicknames are not published; you may choose another.
+- **Location & hexagonal grid footprints**: Precise location events and derived hexagonal grid footprints — used to build your map, sync it across devices, and provide sharing features only if you turn them on. If you enable background recording and grant iOS "Always" location permission, collection may continue when the app is not on screen or is relaunched by iOS. You can pause recording in the app and change iOS permission at any time.
+- **Photos & photo library metadata**: Photo library location and time metadata are read on your device only after you enable photo discovery, to find photos associated with your grid cells. Photo content is uploaded only after you actively select it. Uploaded originals, thumbnails, avatars, and related metadata support the photo and map features. When you update your avatar, we submit the selected image to Microsoft Azure AI Content Safety before changing the visible avatar; if review is unavailable or any category score is above zero, the previous avatar remains.
+- **Social features & one-to-one messages**: Friendships, access requests, one-to-one messages, message read state, blocked users, and visit activity — used to provide social features and prevent repeat notifications. Recent chats, conversations, and friend lists may be cached in protected files on your device for faster display; signing out clears that account's local cache.
+- **Reports, appeals & nonconsensual intimate imagery (TIDA) takedowns**: In-app reports and appeals are processed to handle abuse and enforce community rules. When a recipient reports a private message, we copy only that reported message and submit it to Microsoft Azure AI Content Safety; we do not routinely scan unreported private conversations. For nonconsensual intimate imagery removal requests submitted via our public [48-Hour Removal Portal](takedown.html) (no account required), we collect requester/representative name, contact email (and optional phone), locating details, electronic signature, good-faith statement, and a hashed source IP for abuse prevention.
+- **Technical diagnostics & SDK data**: Diagnostics, performance metrics, and network request metadata needed to operate the app, render maps, prevent abuse, and investigate failures.
 
-The legal basis depends on your jurisdiction and the feature: provision of the service you request, your explicit choices for optional location/photo discovery and sharing, and legitimate interests in security and abuse prevention. You may withdraw an optional choice in Settings; prior lawful processing is unaffected.
+The legal basis depends on your jurisdiction and the feature: provision of the service you request, your explicit choices for optional location/photo discovery and sharing, compliance with legal obligations (such as safety and takedown laws), and legitimate interests in security and abuse prevention. You may withdraw an optional choice in Settings; prior lawful processing is unaffected.
 
 ## Visibility and sharing
 
-Sharing footprints and uploaded photos with other users is off by default. If you turn it on, people who visited the same grid cell may see your activity and photos in that cell. Friends or people you grant full access may see your full shared map. You may switch sharing off; newly requested views will be denied. People who already downloaded or saw content may retain copies. Blocking a user prevents new access through the app. Do not upload photos of others without a lawful basis or permission where required.
+Sharing footprints and uploaded photos with other users is **off by default**. If you turn it on, people who visited the same grid cell may see your activity and photos in that cell, and friends or people you grant full access may see your full shared map. You may switch sharing off at any time; newly requested views will be denied. People who already downloaded or saw content may retain copies. Blocking a user prevents new access through the app. Do not upload photos of others without a lawful basis or permission where required.
 
-## Providers and international transfers
+## Providers and international data transfers
 
-Supabase hosts account, social and photo data in its Tokyo region. Microsoft Azure AI Content Safety processes uploaded photos, selected avatar updates, proposed nicknames, and the specific private message reported by its recipient; the configured Azure resource is in Japan East. Google provides sign-in and Mapbox provides map tiles and related map services; these providers may process requests and technical data in other jurisdictions under their own terms. We do not sell personal data or use it for targeted advertising. We will review transfer mechanisms required for each launch country before offering the service there.
+Because Yonprint is operated by an individual developer in mainland China using cloud and platform services across multiple regions, your personal data may be stored in, transferred to, or accessed from jurisdictions outside your home country or region (including Japan, the United States, and mainland China):
 
-The Google Sign-In SDK's privacy declaration includes name, email address, phone number, approximate location, user and device identifiers, usage data, and other technical data for sign-in functionality and, for some types, analytics. Google's sign-in documentation also says an IP address may be used to estimate a general location for fraud prevention. The Mapbox Maps SDK's declaration includes location, a user identifier, product interactions, usage, performance, and diagnostic data for map functionality and analytics. These are SDK declarations; the data generated in a session depends on the features and providers used. The App Store privacy disclosure includes these categories conservatively. Mapbox's map attribution control provides its telemetry choice. We do not use these SDKs for advertising or cross-app tracking.
+- **Supabase (Processor)**: Hosts our database, authentication, private photo storage, and backups primarily in its **Tokyo (`ap-northeast-1`)** region. However, Supabase Edge Functions may execute in regions close to the requester, and service logs, operational metadata, support access, or CDN edge delivery may occur outside Tokyo under [Supabase's DPA](https://supabase.com/legal/customer-resources/data-processing-addendum) and [Data Residency FAQ](https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq).
+- **Microsoft Azure AI Content Safety (Processor)**: Processes uploaded photos, selected avatar updates, proposed nicknames, and the specific private message reported by its recipient using our configured **Japan East** resource under Microsoft's [Products and Services DPA](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
+- **Google Sign-In (Identity Provider)**: When you choose Google sign-in, Google processes authentication and fraud-prevention/SDK telemetry data globally (including the United States) under [Google APIs Terms](https://developers.google.com/terms) and Google's privacy policy. Its SDK privacy declaration covers name, email, phone number, approximate location, user/device identifiers, usage data, and other technical data.
+- **Apple (Sign in with Apple & DeclaredAgeRange)**: When you use Sign in with Apple or Apple's age-assurance signals, Apple processes data on-device and within Apple's infrastructure under [Sign in with Apple & Privacy](https://www.apple.com/legal/privacy/data/en/sign-in-with-apple/).
+- **Mapbox (Map Service Provider)**: Provides map tiles and rendering services globally (including the United States and global CDNs) under [Mapbox's Privacy Policy](https://www.mapbox.com/legal/privacy) and [Mapbox DPA](https://www.mapbox.com/legal/dpa). Its SDK privacy declaration covers location, user identifier, product interactions, usage, performance, and diagnostic data. Mapbox's map attribution control provides its telemetry opt-out choice.
+- **Resend (Alert Email Processor)**: Delivers moderation alert emails (and, where enabled, takedown confirmation receipts) primarily in the **United States** under [Resend's DPA](https://resend.com/legal/dpa). Alert emails contain only non-sensitive metadata (case number, priority, deadline, and console link) and never include intimate imagery, chat text, or precise coordinates.
+- **Operator Remote Access (Mainland China)**: As the individual developer and operator based in **mainland China**, I remotely access necessary production data only for system maintenance, troubleshooting, content moderation, takedown execution, and responding to user rights requests, using restricted moderator/service credentials.
+
+We do **not** sell personal data or use third-party SDKs for targeted advertising or cross-app tracking.
 
 ## Storage, security and retention
 
-Uploaded photos are held in private storage and delivered through short-lived links after access checks. On 10 November 2026, older published photos were copied into private storage, their app records were switched to private links, and the old bucket was made private; the old anonymous photo links no longer work. The old photo recovery copies have been removed; the private old bucket still holds three legacy avatars. You can delete your account and its photos at any time. We use access rules and limited permissions, but no internet service can promise absolute security. Account, footprint, photo and chat data are retained while your account is active. Account deletion removes the account, uploaded media and associated records, except information we must retain under applicable law. Temporary backups and provider logs may remain for a limited period under provider schedules. Extra copies of reported or removed private messages are kept while a report or appeal is open, then removed after 180 days once the case is closed and no appeal is pending. The original chat record and decision history follow separate retention rules. Reports are reviewed for abuse; contact us if you need details about a particular retention obligation.
+Uploaded photos are held in private storage and delivered through short-lived signed links after access checks. We use row-level security, role restrictions, and access checks, though no internet service can guarantee absolute security.
+
+- **Active account, footprints, photos & normal chats**: Retained while your account is active. Permanent account deletion removes your Auth identity, profile, footprints, uploaded photos, and associated records, except where retention is required by law.
+- **Reported or removed private-message evidence**: Extra copies of reported or removed private messages and automated text-analysis records are retained while a report or appeal is open, and are automatically purged **180 days** after the case is closed with no pending appeal.
+- **TIDA takedown quarantined evidence**: Images restricted under a nonconsensual intimate imagery takedown request are moved out of user-accessible buckets into a moderator-only private quarantine bucket to immediately cut off access, and are physically purged once verification and any required legal review conclude.
+- **Provider backups & logs**: Temporary provider backups and operational logs expire under each provider's standard retention schedule.
 
 ## Your choices and rights
 
-In the app, you can pause location recording, disable photo discovery and sharing, block users, export your account records as a JSON file, save individual photos you uploaded through a separate option, or permanently delete the account. The JSON may include photo metadata but does not include image files or signed links for downloading them. You may email us to request access to your uploaded photos or to request access, correction, deletion, portability, restriction, or to object, subject to applicable law. We will respond within the legally required period.
+In the app, you can pause location recording, disable photo discovery and sharing, block users, export your account records as a JSON file, save individual photos you uploaded through a separate option, or permanently delete your account. You may email our DPO at [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com) to request access, correction, deletion, portability, restriction, or to object, subject to applicable law. We will respond within the legally required period. You may also lodge a complaint with your local data protection authority (such as the PDPC in Singapore, PPC in Japan, OPC in New Zealand, PCPD in Hong Kong, or relevant authorities in Taiwan and the United States).
 
 ## Changes and contact
 
-We will post material changes here and update the effective date. Contact [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com) for privacy requests or complaints. For nonconsensual intimate imagery removal requests under the TAKE IT DOWN Act (no account required, 48-hour removal process), use our [Intimate Imagery Removal Portal](takedown.html). You may also complain to your local data protection authority where applicable.
+We will post material changes here and update the effective date. Contact our Data Protection Officer (Chenyang Xiong) at [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com) for privacy requests or complaints. For nonconsensual intimate imagery removal requests under the U.S. TAKE IT DOWN Act (no account required, 48-hour removal process), use our [Intimate Imagery Removal Portal](takedown.html).
 
 ---
 
-生效日期：2026 年 11 月 20 日。运营者为中国大陆个人开发者熊晨阳，隐私与举报邮箱：[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。本服务通常要求年满 16 岁；Apple 的地区与账号信号表明需要年龄保障时，须由 Apple 年龄范围确认已满 18 岁，监护人同意不能替代此门槛。该信号不向我们提供具体州名，我们不以 IP 定位判断此门槛。一般地区在 Supabase 保存用户自行填写的生日；Apple 核验保存资格状态、年龄门槛、核验方式、政策版本与核验时间，不保存 Apple 返回的具体年龄范围或向 Apple 索取准确生日，之前已登记的生日仍保留。这些声明不等同于身份证明或独立身份核验。后续登录复用账号资格，本机已通过的账号先恢复界面再后台复核，临时服务错误不自动撤销原有资格。确认不符合要求时限制使用并暂停定位；尚未同步的限制可能在退出登录后暂存本机，避免离线重启丢失限制。年龄记录不向其他用户显示，可导出并随账号删除（法定保留义务除外）；年龄限制页仍提供导出与注销入口。年龄信息有误或发现不符合年龄要求的账号时，可通过上述邮箱联系我们。我们收集登录资料、用于生成地图的定位和格子足迹、用户主动选择上传的照片、头像、好友与聊天记录、举报及屏蔽记录。聊天记录、会话与好友列表可能按账号缓存在本机，退出登录时清除该账号的本机缓存。你主动更新头像或提交公开昵称时，我们会先将所选头像或昵称提交给 Microsoft Azure AI Content Safety 审核；审核不可用或四类风险分数有任一项非零时，新头像或昵称不会发布。仅当收件人举报某条私聊消息时，我们将该条消息提交给 Azure 自动裁决；相关用户可申诉转人工复核，不常态扫描未被举报的私聊。持续定位和相册照片发现分别由产品内开关及 iOS 系统授权控制；足迹和照片对其他用户的分享默认关闭。Google 登录和 Mapbox 地图 SDK 的隐私清单还声明了登录身份、粗略定位、设备标识、使用及诊断等数据类别；部分用于分析。具体类别见上方英文全文与 App Store 隐私披露。你可在应用设置中暂停记录、关闭分享、导出账号记录 JSON（含照片元数据但不含原图文件或原图下载签名链接）、单独保存自己上传的照片，或永久删除账号；如需行使其他法定权利，可通过上述邮箱提出请求。详细说明以本页英文完整条款为准；如两种语言存在差异，我们会按适用法律与用户更有利的解释处理。如涉及未经同意发布的私密影像或 AI 合成私密图（无需注册账号），请直接通过[私密影像 48 小时删图入口](takedown.html)提交申请。
+## 繁體中文完整隱私權政策（台灣／香港適用）
+
+**生效日期**：2026 年 11 月 21 日。
+
+### 一、蒐集個人資料之機關／營運者名稱與聯絡方式
+- **營運者（個人資料控制者）**：熊晨陽（Chenyang Xiong），位於中國大陸之個人開發者。
+- **個人資料保護負責人（DPO）與隱私／檢舉聯繫信箱**：熊晨陽 — [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)。
+- **私密影像 48 小時刪圖入口（無須帳號）**：[私密影像 48 小時刪圖入口](takedown.html)。
+
+### 二、適用年齡與資格驗證
+本服務一般要求年滿 16 歲；當 Apple 之地區與帳號訊號顯示需適用年齡保障規定時，須透過 Apple 聲明年齡範圍確認年滿 18 歲，且監護人同意不得替代此門檻。該訊號由 Apple 提供，不會向我們揭露具體州別，我們亦不使用 IP 定位判斷此門檻。一般 16+ 流程會於 Supabase 保存您自報之出生日期；Apple 驗證流程僅保存資格狀態、最低年齡門檻、驗證方式、政策版本與檢查時間，不保存 Apple 回傳之具體年齡區間或精確生日。年齡紀錄不向其他用戶顯示，並包含於帳號匯出與刪除範圍內（依法應留存者除外）。
+
+### 三、蒐集之目的（對應台灣個人資料保護法第 8 條）
+1. **帳號驗證與服務提供**：提供 Apple／Google 登入、帳號展示、跨裝置同步與客服聯繫。
+2. **地圖足跡與照片功能**：依您開啟之功能繪製六邊形足跡地圖、本機比對相簿照片位置並呈現您主動選擇上傳之照片與頭像。
+3. **社交互動與訊息通訊**：提供好友關係、存取申請、同格互動通知、一對一私訊與封鎖功能。
+4. **內容安全、防濫用與法定義務履行**：進行頭像／暱稱／上傳照片及被檢舉單條私訊之安全審核、處理申訴與封鎖，並履行美國《TAKE IT DOWN Act》等違法內容 48 小時移除義務。
+5. **系統安全與故障排除**：進行效能監控、錯誤排查、防刷限流與資安防護。
+
+### 四、蒐集之個人資料類別
+1. **識別與帳號資料**：Apple／Google 登入識別碼、電子郵件、公開暱稱、頭像圖片。
+2. **年齡資格資料**：自報出生日期或 Apple 年齡保障資格狀態紀錄。
+3. **精確與背景位置資料**：經您授權後蒐集之精確定位紀錄、背景定位事件與衍生之六邊形格子足跡。
+4. **照片與媒體資料**：僅在開啟「照片發現」後於本機讀取照片拍攝位置與時間中繼資料；僅在您主動點選上傳後蒐集照片原圖、縮圖與相關中繼資料。
+5. **社交與通訊資料**：好友名單、存取申請、同格互動通知、封鎖名單、一對一私訊內容與已讀狀態（近期對話與好友清單可能暫存於您裝置上之受保護本機快取，登出時自動清除）。
+6. **檢舉、申訴與公開刪圖申請資料**：站內檢舉與申訴紀錄；若透過免登入公開刪圖頁提交申請，則包含申請人／授權代理人姓名、聯絡信箱（及選填電話）、涉事影像定位說明、電子簽名、善意聲明及防濫用之雜湊來源 IP。
+7. **技術與 SDK 資料**：裝置與效能診斷、網路請求中繼資料，以及 Google Sign-In 與 Mapbox SDK 依其隱私清單所聲明之使用與診斷類別（不用於跨 App 廣告追蹤，亦不販售個人資料）。
+
+### 五、個人資料利用之期間、地區、對象及方式
+- **利用期間**：
+  - 帳號、足跡、照片與一般私訊：於您帳號存續期間內利用；永久刪除帳號後即清除帳號身分、照片與相關紀錄（依法須留存者除外）。
+  - 被檢舉或下架私訊之額外審核證據副本：於案件與申訴處理期間保存，結案且無待處理申訴滿 **180 天**後由排程自動清除。
+  - 涉私密影像下架（TIDA）之隔離檔案：移入僅審核員可存取之私有隔離區以立即阻斷傳播，於完成核驗及法定留證需求後逐項物理刪除。
+  - 供應商備份與系統紀錄：依各雲端服務商標準週期自動過期清除。
+- **利用地區**：**日本**（Supabase 東京主區、Microsoft Azure 日本東部）、**美國及全球邊緣節點**（Supabase Edge Functions 就近執行、Mapbox 全球 CDN、Google Sign-In、Resend 告警郵件中繼、Apple 基礎設施），以及**中國大陸**（營運者本人僅於系統維護、故障排除、內容審核與回應權利請求時透過受限權限遠端存取必要資料）。
+- **利用對象**：營運者本人（熊晨陽）、您主動開啟分享後具存取資格之其他用戶（足跡與照片分享**預設關閉**），以及受託或協力提供基礎設施之服務商——Supabase、Microsoft Azure AI Content Safety、Mapbox、Google（Google Sign-In）、Apple（Sign in with Apple / DeclaredAgeRange）與 Resend（僅接收收件信箱與不含私密圖／私訊正文／精確座標之工單元資料）。
+- **利用方式**：以自動化機器（資料庫儲存、簽名連結派發、AI 安全檢測、排程清理與郵件告警）或非自動化人工方式（人工審核與客服回應）於上述目的範圍內利用。
+
+### 六、您得行使之權利及方式
+您可透過以下方式隨時行使權利：
+- **App 內直接操作**：於「個人資料設定」中暫停定位紀錄、關閉照片發現與足跡分享、封鎖用戶、匯出帳號紀錄 JSON（含照片中繼資料）、單獨儲存本人上傳之照片，或永久刪除帳號；亦可隨時於 iOS 系統設定撤回定位與相簿權限。
+- **聯繫 DPO 申請**：來信 [nesgoat624@gmail.com](mailto:nesgoat624@gmail.com) 提出查詢、閱覽、請求製給複製本、補充或更正、請求停止蒐集／處理／利用、或請求刪除之申請。我們將於法定期間內回覆處理。
+
+### 七、得自由選擇提供個人資料時，不提供將對您權益之影響
+- **帳號登入與年齡資格**：屬提供本服務與符合法令之必要資訊；若不提供，將無法註冊或使用本 App。
+- **精確／背景定位、相簿照片發現與對他人分享**：均為**選填／可獨立開關**功能。若您拒絕定位權限或暫停紀錄，將無法自動點亮經過之足跡方格，但仍可檢視既有資料與管理帳號；若不開啟照片發現或不上傳照片，僅無法使用相簿足跡與照片功能；若維持關閉分享，他人將無法查看您的足跡與照片。
+
+### 八、台灣與香港用戶專屬說明
+- **台灣用戶**：您得依台灣《個人資料保護法》第 3 條行使查詢或請求閱覽、請求製給複製本、請求補充或更正、請求停止蒐集／處理／利用及請求刪除等權利；若認權益受損，亦得向主管機關反映。
+- **香港用戶**：您得依香港《個人資料（私隱）條例》向我們提出查閱資料要求及改正資料要求；如有需要，亦可向香港個人資料私隱專員公署（PCPD）查詢或投訴。
+
+如英文版與繁體中文版之間存在解讀差異，我們將依適用當地法律並採取對用戶更有利之解釋處理。
