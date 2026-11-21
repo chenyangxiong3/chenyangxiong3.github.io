@@ -12,7 +12,7 @@ Effective date: 21 November 2026.
 
 ## Who may use the service
 
-The service generally requires a minimum age of 16. When Apple’s regional and account signals indicate that age assurance applies, we require an Apple declared age range confirming 18 or older; parental approval does not waive this threshold. This switch is supplied by Apple and does not disclose a state name to us. We do not use IP geolocation to decide this requirement. In the standard 16+ route, we store the date of birth you provide in Supabase. In the Apple route, we store qualification status, the minimum age, verification method, policy version and check time, but not Apple's specific age range or an exact birthday from Apple. Previously provided birthdays remain part of the account record. These declarations are not identity documents or independent identity verification. Qualified accounts reuse their recorded status at later sign-ins. On this device we restore a previously qualified account promptly and check in the background; temporary service errors do not automatically revoke prior qualification. A confirmed failure to meet the requirement restricts app access and stops location recording. An unsent restriction may remain locally after sign-out until synchronized to prevent an offline restart from discarding it. Age records are not shown to other users, are included in your account export and are deleted with your account, subject to applicable retention duties. Export and account deletion remain available on the age gate. If age information is incorrect, or you believe an ineligible account exists, contact us.
+The service generally requires a minimum age of 16. When Apple’s regional and account signals indicate that age assurance applies, we require an Apple declared age range confirming 18 or older; parental approval does not waive this threshold. This switch is supplied by Apple and does not disclose a state name to us. We do not use IP geolocation to decide this requirement. In the standard 16+ route, we store the date of birth you provide in Supabase (however, if a new account declares an age under 13, we do not retain the birth date and automatically delete the account and its personal data). In the Apple route, we store qualification status, the minimum age, verification method, policy version and check time, but not Apple's specific age range or an exact birthday from Apple. Previously provided birthdays remain part of the account record. These declarations are not identity documents or independent identity verification. Qualified accounts reuse their recorded status at later sign-ins. On this device we restore a previously qualified account promptly and check in the background; temporary service errors do not automatically revoke prior qualification. A confirmed failure to meet the requirement restricts app access and stops location recording. An unsent restriction may remain locally after sign-out until synchronized to prevent an offline restart from discarding it. Age records are not shown to other users, are included in your account export and are deleted with your account, subject to applicable retention duties. Export and account deletion remain available on the age gate for restricted accounts (ages 13–15 or under-18 in regulated regions). If age information is incorrect, or you believe an ineligible account exists, contact us.
 
 ## Data we process and why
 
@@ -48,7 +48,7 @@ We do **not** sell personal data or use third-party SDKs for targeted advertisin
 Uploaded photos are held in private storage and delivered through short-lived signed links after access checks. We use row-level security, role restrictions, and access checks, though no internet service can guarantee absolute security.
 
 - **Active account, footprints, photos & normal chats**: Retained while your account is active. Permanent account deletion removes your Auth identity, profile, footprints, uploaded photos, and associated records, except where retention is required by law.
-- **Reported or removed private-message evidence**: Extra copies of reported or removed private messages and automated text-analysis records are retained while a report or appeal is open, and are automatically purged **180 days** after the case is closed with no pending appeal.
+- **Reported or removed private-message evidence**: Extra copies of reported private messages and automated text-analysis records are retained while a report or appeal is open, and are automatically purged once **180 days** have passed after the report is reviewed/resolved with no pending appeal; extra evidence copies of removed messages are automatically purged **180 days** after recording once the appeal window closes with no pending appeal.
 - **TIDA takedown quarantined evidence**: Images restricted under a nonconsensual intimate imagery takedown request are moved out of user-accessible buckets into a moderator-only private quarantine bucket to immediately cut off access, and are physically purged once verification and any required legal review conclude.
 - **Provider backups & logs**: Temporary provider backups and operational logs expire under each provider's standard retention schedule.
 
@@ -72,7 +72,7 @@ We will post material changes here and update the effective date. Contact our Da
 - **私密影像 48 小時刪圖入口（無須帳號）**：[私密影像 48 小時刪圖入口](takedown.html)。
 
 ### 二、適用年齡與資格驗證
-本服務一般要求年滿 16 歲；當 Apple 之地區與帳號訊號顯示需適用年齡保障規定時，須透過 Apple 聲明年齡範圍確認年滿 18 歲，且監護人同意不得替代此門檻。該訊號由 Apple 提供，不會向我們揭露具體州別，我們亦不使用 IP 定位判斷此門檻。一般 16+ 流程會於 Supabase 保存您自報之出生日期；Apple 驗證流程僅保存資格狀態、最低年齡門檻、驗證方式、政策版本與檢查時間，不保存 Apple 回傳之具體年齡區間或精確生日。年齡紀錄不向其他用戶顯示，並包含於帳號匯出與刪除範圍內（依法應留存者除外）。
+本服務一般要求年滿 16 歲；當 Apple 之地區與帳號訊號顯示需適用年齡保障規定時，須透過 Apple 聲明年齡範圍確認年滿 18 歲，且監護人同意不得替代此門檻。該訊號由 Apple 提供，不會向我們揭露具體州別，我們亦不使用 IP 定位判斷此門檻。一般 16+ 流程會於 Supabase 保存您自報之出生日期（若新帳號申報未滿 13 歲，則不留存其出生日期並自動刪除該帳號及個人資料）；Apple 驗證流程僅保存資格狀態、最低年齡門檻、驗證方式、政策版本與檢查時間，不保存 Apple 回傳之具體年齡區間或精確生日。年齡紀錄不向其他用戶顯示，並包含於帳號匯出與刪除範圍內（依法應留存者除外）。
 
 ### 三、蒐集之目的（對應台灣個人資料保護法第 8 條）
 1. **帳號驗證與服務提供**：提供 Apple／Google 登入、帳號展示、跨裝置同步與客服聯繫。
@@ -93,7 +93,7 @@ We will post material changes here and update the effective date. Contact our Da
 ### 五、個人資料利用之期間、地區、對象及方式
 - **利用期間**：
   - 帳號、足跡、照片與一般私訊：於您帳號存續期間內利用；永久刪除帳號後即清除帳號身分、照片與相關紀錄（依法須留存者除外）。
-  - 被檢舉或下架私訊之額外審核證據副本：於案件與申訴處理期間保存，結案且無待處理申訴滿 **180 天**後由排程自動清除。
+  - 被檢舉或下架私訊之額外審核證據副本：於檢舉與申訴處理期間保存；被檢舉私訊副本與文字分析紀錄於檢舉審結滿 **180 天**且無待處理申訴時由排程自動清除，下架私訊證據副本則於紀錄滿 **180 天**且申訴期滿無待處理申訴時自動清除。
   - 涉私密影像下架（TIDA）之隔離檔案：移入僅審核員可存取之私有隔離區以立即阻斷傳播，於完成核驗及法定留證需求後逐項物理刪除。
   - 供應商備份與系統紀錄：依各雲端服務商標準週期自動過期清除。
 - **利用地區**：**日本**（Supabase 東京主區、Microsoft Azure 日本東部）、**美國及全球邊緣節點**（Supabase Edge Functions 就近執行、Mapbox 全球 CDN、Google Sign-In、Resend 告警郵件中繼、Apple 基礎設施），以及**中國大陸**（營運者本人僅於系統維護、故障排除、內容審核與回應權利請求時透過受限權限遠端存取必要資料）。
