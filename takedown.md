@@ -4,17 +4,30 @@ title: Nonconsensual Intimate Imagery Removal (TAKE IT DOWN Act)
 
 # Nonconsensual Intimate Imagery Removal / 私密影像 48 小时删图入口
 
-Effective date: 21 November 2026. **No Yonprint account is required** to request removal.
+Effective date: 21 November 2026 (updated 26 November 2026). **No Yonprint account is required** to request removal.
 
 If an intimate visual depiction of you—or of someone you are legally authorized to represent—has been published or shared on Yonprint without consent (including authentic photos or digitally altered / AI-generated depictions), you may submit a removal request below. Upon receiving a valid request, we will remove the reported imagery and make reasonable efforts to identify and remove known identical copies within **48 hours**.
+
+**Scope of This Portal (Intimate Imagery / TIDA Only — Not for Copyright Claims):** This portal is **exclusively for nonconsensual intimate visual depictions** (TIDA). Do **not** submit ordinary copyright infringement notices through this form; for copyright complaints, please email **[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)** directly for manual review (see [Terms of Service](terms.html)).
 
 **Important:** Do **not** attach, upload, or email intimate images. Provide locating details instead (such as a username, photo ID, date/time, URL, or description of where it appears). If someone is in immediate physical danger, contact local emergency services first.
 
 如果您或您获合法授权代理的对象在 Yonprint 上出现未经同意发布的私密影像（包括真实照片或经 AI/软件合成篡改的私密影像），**无需注册或登录 Yonprint 账号**，均可直接通过下方表单提交删图申请。收到有效申请后，我们将在 **48 小时内**下架相关影像，并尽合理努力检索并移除平台内已知完全相同的副本。请**不要**发送或上传私密图片原件，只需填写定位线索。
 
+**适用范围区分：** 本页面**仅用于未经同意的私密影像移除（TIDA）**，请勿在此提交普通著作权/版权侵权通知；普通版权侵权通知请直接发送邮件至 **[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)** 由人工及时处理（详见[服务条款](terms.html)）。
+
+> **Important Notice — No Automated Email Receipts / 重要提示：当前不发送外部自动邮件回执**
+> - **No automated confirmation email is sent** when you submit this form. Your **Case Number** and **Status Token** are shown **immediately on this page** upon submission—**please copy or screenshot and save them right away** to check status or submit follow-up info below.
+> - **当前不发送外部自动邮件回执**。提交成功后页面会即时显示**工单号（Case Number）**与**查询凭证（Status Token）**，**请务必立即复制或截图保存**以查询处置进度或补充材料；所填联系邮箱仅用于必要的人工沟通，邮箱 **[nesgoat624@gmail.com](mailto:nesgoat624@gmail.com)** 保留为人工联系与兜底渠道。
+
 <div id="tida-app" style="max-width:720px;margin:20px 0;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;">
   <form id="tida-form" style="display:grid;gap:12px;padding:18px;border:1px solid #d0d7de;border-radius:10px;background:#fafbfc;">
     <h2 style="margin:0 0 4px 0;font-size:18px;">Submit Removal Request / 提交删图申请</h2>
+    <div style="padding:10px 12px;border:1px solid #d4a72c;border-radius:8px;background:#fff8c5;color:#4d2d00;font-size:13px;line-height:1.5;">
+      <strong>Notice / 提交须知：</strong><br />
+      1. <strong>TIDA Intimate Imagery Only / 仅限私密影像移除：</strong> Ordinary copyright notices must be emailed to <a href="mailto:nesgoat624@gmail.com">nesgoat624@gmail.com</a>.<br />
+      2. <strong>No Automated Email Receipt / 无自动邮件回执：</strong> Currently no automated email receipt is sent. After submitting, <strong>save the Case Number &amp; Status Token shown on this page immediately</strong> to track status; <a href="mailto:nesgoat624@gmail.com">nesgoat624@gmail.com</a> remains available for manual contact.
+    </div>
 
     <div style="position:absolute;left:-9999px;" aria-hidden="true">
       <label>Website <input type="text" id="tida-website" name="website" tabindex="-1" autocomplete="off" /></label>
@@ -39,7 +52,7 @@ If an intimate visual depiction of you—or of someone you are legally authorize
     </label>
 
     <label style="display:grid;gap:4px;">
-      <span><strong>Contact Email / 联系邮箱 *</strong></span>
+      <span><strong>Contact Email / 联系邮箱 *</strong> <small style="color:#57606a;font-weight:normal;">(For manual follow-up only; no automated email receipt is sent / 仅用于人工联系，当前不发送自动邮件回执)</small></span>
       <input type="email" id="tida-email" required maxlength="320" style="padding:8px;border:1px solid #b6c2ce;border-radius:6px;" />
     </label>
 
